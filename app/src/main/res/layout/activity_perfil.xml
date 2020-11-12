@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3C847"
+    tools:context=".Perfil">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onClickAtras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/atras" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="183dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_vamosmed" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="80dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_alcaldia" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/barraInf"
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        android:background="#A7AB48"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divDatos"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/divMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnCancelar"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_buttonmenu"
+                android:text="Cancelar"
+                android:onClick="onClickAtras"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/btnSiguiente"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnSiguiente"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_buttonmenu"
+                android:text="Siguiente"
+                android:onClick="onClickSiguiente"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/btnCancelar"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ScrollView
+        android:id="@+id/divDatos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/barraInf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbarPerfil">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/lytDatos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false">
+
+            <TextView
+                android:id="@+id/lblSecretaria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Secretaría"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toTopOf="@id/cmbSecretaria"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.086"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtCorreo"
+                app:layout_constraintVertical_bias="0.1" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:tint="#00FFFFFF"
+                app:layout_constraintBottom_toTopOf="@id/divFotos"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tituloPerfil"
+                app:layout_constraintVertical_bias="0.036"
+                app:srcCompat="@drawable/ic_iconusuario" />
+
+            <TextView
+                android:id="@+id/tituloPerfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="10dp"
+                android:text="Información de perfil"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/imageView5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/lblSubsecretaria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Subsecretaría"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toTopOf="@+id/cmbSubsecretaria"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.092"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cmbSecretaria" />
+
+            <EditText
+                android:id="@+id/txtIdentificacion"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_edittext_states"
+                android:editable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="Identificación"
+                android:paddingLeft="10dp"
+                android:textAlignment="textStart"
+                android:textColor="#6E6E6E"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@id/txtNombre"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/divFotos"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <EditText
+                android:id="@+id/txtNombre"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_edittext_states"
+                android:editable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="Nombre"
+                android:paddingLeft="10dp"
+                android:textAlignment="textStart"
+                android:textColor="#6E6E6E"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/txtCorreo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtIdentificacion" />
+
+            <EditText
+                android:id="@+id/txtCorreo"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_edittext_states"
+                android:editable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="Correo"
+                android:paddingLeft="10dp"
+                android:textColor="#6E6E6E"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/lblSecretaria"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
+
+            <Spinner
+                android:id="@+id/cmbSecretaria"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_edittext_states"
+                app:layout_constraintBottom_toTopOf="@+id/lblSubsecretaria"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/lblSecretaria"
+                app:layout_constraintVertical_bias="0.2" />
+
+            <Spinner
+                android:id="@+id/cmbSubsecretaria"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_edittext_states"
+                app:layout_constraintBottom_toTopOf="@id/chkIos"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.508"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lblSubsecretaria" />
+
+            <CheckBox
+                android:id="@+id/chkIos"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:buttonTint="#FFFFFF"
+                android:text="@string/chkTerms"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.508"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cmbSubsecretaria"
+                tools:ignore="MissingConstraints" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/divFotos"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toTopOf="@id/txtIdentificacion"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView5"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TableLayout
+                    android:id="@+id/divEliminarFoto"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/divTomarFoto"
+                    app:layout_constraintHorizontal_bias="0.13"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|top">
+
+                        <Button
+                            android:id="@+id/btnEliminarFoto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="90dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/ic_eliminarfoto"
+                            android:onClick="onClickEliminarFoto"
+                            app:layout_constraintBottom_toTopOf="@id/txtEliminarFoto"
+                            app:layout_constraintEnd_toStartOf="@id/btnTomarFoto"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/imageView5" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center|top">
+
+                        <TextView
+                            android:id="@+id/txtEliminarFoto"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="ELIMINAR FOTO"
+                            android:textColor="#FFFFFF"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toTopOf="@id/txtIdentificacion"
+                            app:layout_constraintEnd_toStartOf="@id/txtTomarFoto"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/btnEliminarFoto" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/divTomarFoto"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/divElegirFoto"
+                    app:layout_constraintStart_toEndOf="@id/divEliminarFoto"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|top">
+
+                        <Button
+                            android:id="@+id/btnTomarFoto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="90dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/ic_tomarfoto"
+                            android:onClick="onClickTomarFoto"
+                            app:layout_constraintBottom_toTopOf="@id/txtTomarFoto"
+                            app:layout_constraintEnd_toStartOf="@id/btnElegirFoto"
+                            app:layout_constraintStart_toEndOf="@id/btnEliminarFoto"
+                            app:layout_constraintTop_toBottomOf="@id/imageView5" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|top">
+
+                        <TextView
+                            android:id="@+id/txtTomarFoto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="TOMAR FOTO"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toTopOf="@id/txtIdentificacion"
+                            app:layout_constraintEnd_toStartOf="@id/txtElegirFoto"
+                            app:layout_constraintLeft_toRightOf="@id/txtEliminarFoto"
+                            app:layout_constraintStart_toEndOf="@id/txtEliminarFoto"
+                            app:layout_constraintTop_toBottomOf="@id/btnTomarFoto" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/divElegirFoto"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/divTomarFoto"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|top">
+
+                        <Button
+                            android:id="@+id/btnElegirFoto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="90dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/ic_elegirfoto"
+                            android:onClick="onClickElegirFoto"
+                            app:layout_constraintBottom_toTopOf="@id/txtElegirFoto"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/btnTomarFoto"
+                            app:layout_constraintTop_toBottomOf="@id/imageView5" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|top">
+
+                        <TextView
+                            android:id="@+id/txtElegirFoto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="GALERÍA"
+                            android:textColor="#FFFFFF"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toTopOf="@id/txtIdentificacion"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/txtTomarFoto"
+                            app:layout_constraintTop_toBottomOf="@id/btnElegirFoto"
+                            app:layout_constraintVertical_bias="0.0" />
+                    </TableRow>
+                </TableLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

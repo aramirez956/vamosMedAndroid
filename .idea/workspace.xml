@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="796a29ed-963c-47aa-b0aa-ed5b23a3117f" name="Default Changelist" comment="...">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Bienvenida.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Bienvenida.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="EMG6DEDU6LZD7P5H" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hbxuHYYVSNLaFWqA842u5kyP6D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="52007e8ceabb5579" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-09-22T20:42:20.114Z" />
+    <property name="ResourceManagerPrefKey.ResourceType" value="DRAWABLE" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpaces\VamosMedJavaAndroid\app\src\main\res\drawable-xxhdpi" />
+      <recent name="D:\WorkSpaces\VamosMedJavaAndroid\app\src\main\res\drawable-anydpi" />
+    </key>
+    <key name="android.template.-468910844">
+      <recent name="com.medellin.vamosmed" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpaces\VamosMedJavaAndroid\app\src\main\res\drawable-anydpi" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="796a29ed-963c-47aa-b0aa-ed5b23a3117f" name="Default Changelist" comment="" />
+      <created>1600293814490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600293814490</updated>
+    </task>
+    <task id="LOCAL-00001" summary="...">
+      <created>1604670573630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604670573630</updated>
+    </task>
+    <task id="LOCAL-00002" summary="...">
+      <created>1605120441190</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605120441190</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Notifications" timestamp="1600803341199">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1600803341199" />
+    <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600295160660">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600295160660" />
+    <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1602114433883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602114433883" />
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602701760080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602701760080" />
+    <state x="438" y="65" key="#xdebugger.evaluate" timestamp="1603931684645">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="438" y="65" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1603931684645" />
+    <state x="1703" y="97" key="CommitChangelistDialog2" timestamp="1605120613568">
+      <screen x="1366" y="97" width="1366" height="728" />
+    </state>
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.97.1366.728@0.0.1366.728" timestamp="1605119867188" />
+    <state x="1703" y="97" key="CommitChangelistDialog2/0.0.1366.728/1366.97.1366.728@1366.97.1366.728" timestamp="1605120613568" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604670552698" />
+    <state width="485" height="466" key="DebuggerActiveHint" timestamp="1603931689515">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="485" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1603931689515" />
+    <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1603224735466">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603224735466" />
+    <state width="1322" height="219" key="GridCell.Tab.0.bottom" timestamp="1603952897015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="219" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603952897015" />
+    <state width="1322" height="219" key="GridCell.Tab.0.center" timestamp="1603952897015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="219" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603952897015" />
+    <state width="1322" height="219" key="GridCell.Tab.0.left" timestamp="1603952897014">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="219" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603952897014" />
+    <state width="1322" height="219" key="GridCell.Tab.0.right" timestamp="1603952897015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="219" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603952897015" />
+    <state width="1322" height="219" key="GridCell.Tab.1.bottom" timestamp="1603952897017">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="219" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603952897017" />
+    <state width="1322" height="219" key="GridCell.Tab.1.center" timestamp="1603952897016">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="219" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603952897016" />
+    <state width="1322" height="219" key="GridCell.Tab.1.left" timestamp="1603952897016">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="219" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603952897016" />
+    <state width="1322" height="219" key="GridCell.Tab.1.right" timestamp="1603952897016">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="219" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603952897016" />
+    <state x="263" y="105" key="IDE.errors.dialog" timestamp="1600295228888">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="105" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1600295228888" />
+    <state x="471" y="73" key="RollbackChangesDialog" timestamp="1602276292309">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="471" y="73" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602276292309" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1600294587433">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600294587433" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1604432379363">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1604432379363" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1604670687486">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604670687486" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1600803082231">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600803082231" />
+    <state x="475" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605119786912">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="475" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.97.1366.728@0.0.1366.728" timestamp="1605119786912" />
+    <state x="380" y="0" width="606" height="728" key="find.popup" timestamp="1604453533646">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="0" width="606" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1604453533646" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1603906552561">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1603906552561" />
+    <state x="346" y="49" width="672" height="676" key="search.everywhere.popup" timestamp="1604445702127">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1604445702127" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/ui/viaje/ViajeFragment.java</url>
+          <line>391</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/ui/viaje/ViajeFragment.java</url>
+          <line>412</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/ui/viaje/ViajeFragment.java</url>
+          <line>423</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/ui/viaje/ViajeFragment.java</url>
+          <line>451</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/ui/viaje/ViajeFragment.java</url>
+          <line>476</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/ui/viaje/ViajeFragment.java</url>
+          <line>514</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/ui/viaje/ViajeFragment.java</url>
+          <line>405</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/ui/viaje/ViajeFragment.java</url>
+          <line>416</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/ui/viaje/ViajeFragment.java</url>
+          <line>417</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/MainActivity.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/MainActivity.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/MainActivity.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/MainActivity.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Perfil.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/MainActivity.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/MainActivity.java</url>
+          <line>218</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/MainActivity.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Perfil.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Bienvenida.java</url>
+          <line>177</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Perfil.java</url>
+          <line>324</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Bienvenida.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Perfil.java</url>
+          <line>463</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Perfil.java</url>
+          <line>495</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Perfil.java</url>
+          <line>493</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Perfil.java</url>
+          <line>492</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Perfil.java</url>
+          <line>498</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Bienvenida.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Bienvenida.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Perfil.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Perfil.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/medellin/vamosmed/Perfil.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="adapter.getPosition(new Secretaria(&quot;-1&quot;, &quot;Seleccione&quot;))" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
